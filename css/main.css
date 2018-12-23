@@ -4,3 +4,112 @@
     line-height: 1;
     box-sizing: border-box;
 }
+    /* header*/
+    a {
+        text-decoration: none;
+    }
+    .header {
+        background-image: url("../img/bg-header.jpg");
+        min-height: 735px;
+    }
+    .container {
+        max-width: 1175px;
+        min-width: auto;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 45px 0;
+    }
+    .header .logo {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 2em;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .menu-item li {
+        display: inline;
+        padding: 8px 15px;
+        margin-right: 15px;
+    }
+    .menu-item li:last-child {
+        margin-right: 0;
+    }
+    .menu-item li:hover {
+        border: 1px solid;
+        border-radius: 20px;
+        border-color: #fff;
+        padding: 8px 15px;
+    }
+    .menu-item .link-1 {
+        font-size: 1em;
+        color: #fff;
+    }
+    .header .header-text-sector {
+        text-align: center;
+        color: #fff;
+        margin-top: 200px;
+    }
+    .header-text-sector h1 {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        margin: 20px 0 45px 0;
+    }
+    .header-text-sector p {
+        font-size: 1em;
+        line-height: 1.5;
+        margin-bottom: 190px;
+}
+     .scroll-header {
+         display: block;
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         background-color: #19bd9a;
+         background-image: url("../img/icons/scroll-header.png");
+         background-repeat: no-repeat;
+         background-position: center;
+         color: #fff;
+         margin: 0 auto;
+     }
+/* bouncy-info */
+
+    .bouncy-info {
+        border-color: #fdf9f9;
+        margin: 70px 150px;
+    }
+    .flex-container-1 {
+        display: flex;
+        justify-content: space-between;
+        max-width: 850px;
+        margin: 0 auto;
+    }
+    .bouncy-info .text-sector h2 {
+        font-size: 1.5em;
+        font-weight: lighter;
+        text-transform: uppercase;
+        color: #333b46;
+        margin-bottom: 50px;
+}
+    .bouncy-info .text-sector p {
+        font-size: 1em;
+        font-weight: lighter;
+        color: #81868e;
+        max-width: 480px;
+        line-height: 1.6;
+        margin-bottom: 35px;
+    }
+    .read-more {
+        font-family: sans-serif;
+        display: inline-block;
+        font-size: 1em;
+        font-weight: normal;
+        color: #414852;
+        border: 1px solid #3d454f;
+        border-radius: 20px;
+        padding: 11px 25px;
+    }

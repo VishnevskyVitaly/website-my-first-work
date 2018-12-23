@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 20px;}
+}
+@media (max-width: 768px) {
+   .menu-item li  {display: block;}
+}
+@media (max-width: 768px) {
+    .header .header-text-sector  {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1012px) {
+    .flex-container-1 {
+        display: block;
+    }
+
+}
+@media (max-width: 1012px) {
+    .img-sector {
+        margin-top: 40px;
+    }
+
+}
